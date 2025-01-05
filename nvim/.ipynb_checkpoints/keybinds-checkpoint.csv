@@ -1,0 +1,69 @@
+,Key Combination,Meaning
+0,h,Move left
+1,j,Move down
+2,k,Move up
+3,l,Move right
+4,w,Jump to the start of the next word
+5,e,Jump to the end of the current word
+6,b,Jump to the start of the previous word
+7,0,Jump to the start of the current line
+8,^,Jump to the first non-blank character of the line
+9,$,Jump to the end of the line
+10,gg,Jump to the beginning of the file
+11,G,Jump to the end of the file
+12,Ctrl-d,Scroll down half a page
+13,Ctrl-u,Scroll up half a page
+14,Ctrl-f,Scroll forward one page
+15,Ctrl-b,Scroll backward one page
+16,i,Enter Insert mode before the cursor
+17,I,Enter Insert mode at the beginning of the line
+18,a,Enter Insert mode after the cursor
+19,A,Enter Insert mode at the end of the line
+20,o,Insert a new line below the current line
+21,O,Insert a new line above the current line
+22,Esc,Exit Insert mode back to Normal mode
+23,x,Delete the character under the cursor
+24,X,Delete the character before the cursor
+25,dd,Delete the current line
+26,dw,Delete from the cursor to the end of the current word
+27,d$,Delete from the cursor to the end of the line
+28,d^,Delete from the cursor to the beginning of the line
+29,yy,Copy (yank) the current line
+30,yw,Copy (yank) from the cursor to the end of the current word
+31,y$,Copy (yank) from the cursor to the end of the line
+32,p,Paste the copied text after the cursor
+33,P,Paste the copied text before the cursor
+34,u,Undo the last change
+35,Ctrl-r,Redo the last undone change
+36,v,Enter Visual mode (select text)
+37,V,Enter Visual Line mode
+38,Ctrl-v,Enter Visual Block mode
+39,o,Move to the opposite end of the selection
+40,Esc,Exit Visual mode
+41,/text,Search forward for 'text'
+42,?text,Search backward for 'text'
+43,n,Repeat the search forward
+44,N,Repeat the search backward
+45,:%s/old/new/g,Replace all occurrences of 'old' with 'new' in the file
+46,:sp,Split window horizontally
+47,:vsp,Split window vertically
+48,Ctrl-w h,Move to the left split
+49,Ctrl-w l,Move to the right split
+50,Ctrl-w k,Move to the upper split
+51,Ctrl-w j,Move to the lower split
+52,Ctrl-w q,Close the current split
+53,Ctrl-w =,Make all splits equal size
+54,:tabnew,Open a new tab
+55,:tabn,Move to the next tab
+56,:tabp,Move to the previous tab
+57,:tabclose,Close the current tab
+58,:w,Save the current file
+59,:wq,Save and quit
+60,:q,Quit (close file)
+61,:q!,Quit without saving changes
+62,:e filename,Open 'filename'
+63,:r filename,Read the contents of 'filename' into the current file
+64,:bnext,Move to the next buffer
+65,:bprev,Move to the previous buffer
+66,:bd,Delete the current buffer
+67,:ls,List all open buffers
